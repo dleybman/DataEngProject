@@ -10,7 +10,7 @@ from google.oauth2 import service_account  # type: ignore
 from streamlit.delta_generator import DeltaGenerator
 
 # Importing classes from components/ directory.
-from components.social_media import SocialMediaSection
+from components.social_media_section import SocialMediaSection
 from components.stadiums_map import StadiumMapSection
 from components.about import AboutSection
 
