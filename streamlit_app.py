@@ -11,8 +11,8 @@ from streamlit.delta_generator import DeltaGenerator
 
 # Importing classes from components/ directory.
 from components.social_media_section import SocialMediaSection
-from components.stadiums_map import StadiumMapSection
-from components.about import AboutSection
+from components.stadiums_map_section import StadiumMapSection
+from components.about_section import AboutSection
 
 social_media_section = SocialMediaSection()
 stadium_map_instance = StadiumMapSection()
